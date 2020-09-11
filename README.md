@@ -17,7 +17,7 @@ After that Data_Exploration is to understand the data prepared.
 ## Modelling
 This implementation is to understand Dropout and Mixout regularization techniques while finetuning BERT and XLNET. Mixout is implemented only on the classifier layer.
 
-BERT.ipynb, XLNet model.ipynb are for dropout and mixout implementations without any sampling. 
+BERT_finetuning.ipynb, XLNet model.ipynb are for dropout and mixout implementations without any sampling. 
 
 BERT with undersampling.ipynb and XLNet with undersampling.ipynb are after sampling to prove that this technique works better when there less training examples.
 
